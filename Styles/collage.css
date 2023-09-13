@@ -29,3 +29,15 @@
     grid-template-columns: repeat(2, 2fr);
     gap: 5px;
 }
+
+@media screen and (max-width: 576px){
+    .row {
+        flex-direction: column;
+
+        height: auto;
+    }
+
+    .group-collage {
+        grid-template-columns: 1fr;
+    }
+}
