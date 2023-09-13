@@ -30,6 +30,7 @@
     gap: 5px;
 }
 
+/* Small divices */
 @media screen and (max-width: 576px){
     .row {
         flex-direction: column;
@@ -39,5 +40,14 @@
 
     .group-collage {
         grid-template-columns: 1fr;
+    }
+}
+
+/* Media query for medium devices */
+
+@media screen and (min-width: 576px) and (max-width: 912px){
+    .row {
+        flex-direction: column;
+        height: auto;
     }
 }
